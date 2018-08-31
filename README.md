@@ -3,7 +3,7 @@
 
 Vehicle Model is based on the vehicle of Road Arrow Formula Student Team from University of Belgrade, Serbia
 
-![alt text](https://media.licdn.com/dms/image/C5612AQFq0bffypxgxw/article-inline_image-shrink_1000_1488/0?e=1541030400&v=beta&t=Sx8SElU028_OucokervkhSQBbNSQHjQNir3xr2--jco =200x200 )
+![alt text](https://media.licdn.com/dms/image/C5612AQFq0bffypxgxw/article-inline_image-shrink_1000_1488/0?e=1541030400&v=beta&t=Sx8SElU028_OucokervkhSQBbNSQHjQNir3xr2--jco | width=200 | height=200 )
 
 Upcoming years will bring radical changes to how we view commuting and traveling. Electric cars and self-driving vehicles are stepping in. In order to keep up with the future in the fast lane, we have to put ourselves in a position of the engineer of the future and be part of that inevitable change. This does not mean to only rehash existing ideas, but also build on them and improve them ourselves. This article is about my work and approach to the solution of one of the major parts of any type of a vehicle so far – TORQUE VECTORING development. My solution was designed for a 4 wheel electric (sport) car.
 
