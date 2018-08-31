@@ -22,11 +22,11 @@ Implementing slip angle and weight transfer influence inside of my algorithm, th
 
 ![Double Lane Change Simulation Output](https://raw.githubusercontent.com/Tepic/Vehicle_Model/master/Figures/DLC_test_output.png)
 
-<img align="left" width="480" height="210" src="https://raw.githubusercontent.com/Tepic/Vehicle_Model/master/Figures/Figure_49.PNG">
+<img align="left" width="440" height="188" src="https://raw.githubusercontent.com/Tepic/Vehicle_Model/master/Figures/Figure_49.PNG">
 This is the ISO3888 double lane change test. On the lower 4 diagrams, the difference of the angular speed of each wheel can be noticed. So, these speeds are references for the electric motors inside each wheel. As I have previously noted, this is only a base model. These values would be corrected during actual driving with a conventional implementation of Torque vectoring using only steering wheel and angular (yaw) sensor. But, using this model, the handling of the car could be foreseen and therefore we would be able to act before sliding happens. Also, thanks to this model (and its weight transfer) we can predict the threshold of wheel speed in traction control and not wait for a wheel to actually slip.
 
 
-<img align="right" width="400" height="300" src="https://raw.githubusercontent.com/Tepic/Vehicle_Model/master/Figures/Figure_58_right.PNG">
+<img align="right" width="405" height="312" src="https://raw.githubusercontent.com/Tepic/Vehicle_Model/master/Figures/Figure_58_right.PNG">
 This model misses a suspension model which would improve weight transfer, roll-bar as well, which is part of the real world suspension. My moto is always to come as prepared as possible for upcoming situations – as a driver looks towards the apex of the approaching corner.
 
 
