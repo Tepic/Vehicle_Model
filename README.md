@@ -5,6 +5,8 @@ Vehicle Model is based on the vehicle of Road Arrow Formula Student Team from Un
 
 Upcoming years will bring radical changes to how we view commuting and traveling. Electric cars and self-driving vehicles are stepping in. In order to keep up with the future in the fast lane, we have to put ourselves in a position of the engineer of the future and be part of that inevitable change. This does not mean to only rehash existing ideas, but also build on them and improve them ourselves. This article is about my work and approach to the solution of one of the major parts of any type of a vehicle so far – TORQUE VECTORING development. My solution was designed for a 4 wheel electric (sport) car.
 
+This site was built using [GitHub Pages](https://pages.github.com/).
+
 <img align="left" width="400" height="300" src="https://raw.githubusercontent.com/Tepic/Vehicle_Model/master/Figures/FSRA16_front.jpeg">
 During my time as a Formula Student member of Formula Student Road Arrow Team University of Belgrade (http://stt.org.rs/), I had a great time with developing electronics for a combustion car. During that time, we came up with the project of an electric vehicle for the same competition. My goal was to develop a base for a Torque Vectoring algorithm. Most algorithms that I have read are based on real time data sensoring without pre-model. Since our team hadn’t had a sufficient amount of funding to start building a car right away, I started making a physical-mathematical model of the car's behavior. This was my final thesis for my BSc. A model of sport vehicle handling with 4 wheel electric drivetrain. All simulations and implementations have been conducted using Matlab.
 
