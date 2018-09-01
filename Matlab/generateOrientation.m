@@ -1,3 +1,44 @@
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+%                      Copyright (c)                                   *
+%            All rights reserved by Milan Tepic
+%  
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+% Function: generateOrientation
+% Input parameters:
+% Return parameters:
+%
+%
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+%
+%                       DESCRIPTION
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% 
+% It is used for generating control reference for car
+% handling. Reference is car orientation over time. It
+% returns a vector of vehicle's orientation over time and
+% it also returns time vector. The last input argument is
+% one of {'ramp', 'step'}. It defines the time of generated
+% control reference - does the control reference changes
+% with unit step type or it is more "smooth" using ramp type.
+% 
+%
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+%
+%                         HISTORY
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% Version: 1.7
+% Author/Date: Milan Tepic / 2017-02-07
+% Change: Initial version
+%
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
 function [orientationVector timeVector] = generateOrientation(orientationVector,timeVector,finalOrientation,time_transition,dt,style)
 	if(length(style)==4)
 		if(mean(style=='step') || mean(style=='ramp'))

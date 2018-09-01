@@ -1,3 +1,40 @@
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+%                      Copyright (c)                                   *
+%            All rights reserved by Milan Tepic
+%  
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+% Function: doubleLaneChange
+% Input parameters: none
+% Return parameters:
+%					- output << generated vehicle trajectory for control
+%					- cones  << position of cones for double lane change test
+%
+%
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+%
+%                       DESCRIPTION
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% 
+% The main program, where everything originates
+% 
+%
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+%
+%                         HISTORY
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% Version: 1.7
+% Author/Date: Milan Tepic / 2017-02-07
+% Change: Initial version
+%
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
 function [output,cones] = doubleLaneChange()
 
 	% generate double-lane change cones

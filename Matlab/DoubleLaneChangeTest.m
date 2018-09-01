@@ -1,3 +1,36 @@
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+%                      Copyright (c)                                   *
+%            All rights reserved by Milan Tepic
+%  
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+% Filename: DoubleLaneChangeTest.m
+%
+%
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+%
+%                       DESCRIPTION
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% 
+% A test programe before final doubleLaneChange function is developed according to this *main* program of single predefined double lane change
+% 
+%
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+%
+%                         HISTORY
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% Version: 1.7
+% Author/Date: Milan Tepic / 2017-02-07
+% Change: Initial version
+%
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
 clear all
 close all
 clc

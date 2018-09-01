@@ -15,7 +15,7 @@
 %                       DESCRIPTION
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 % 
-% (For a detailed description look at the object description in the UML model)
+% The main program, where everything originates
 % 
 %
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %

@@ -1,3 +1,49 @@
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+%                      Copyright (c)                                   *
+%            All rights reserved by Milan Tepic
+%  
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+% Function: wheel_move
+% Input parameteres:
+%                   - wheel_speeds   >> Angular speed of each wheel generated from previous simulations (currently unused so far, since the control of vehicle is not implemented to control wheels, only steering wheel). For such improvements, it is needed to add momentum equations about load and speed of each wheel over the whole system (vehicle). System is already too non-linear, therefor this was not implemented due to deadline to finish final Bachelor thesis. This is one of the following steps of improvements.
+%                   - vehicle_Params >> 
+%                   - sym_Params     >>
+%                   - tire_Params    >>
+%                   - wheel_location >>
+%                   - slipAngle      >>
+%                   - lateralLoad    >>
+%                   - laststate      >>
+% Return parameteres:
+%                   - output         << new generated states and dynamical parameters used in the next iteration
+%                   - state_Num      << {0,1,2} <=> {'straight', 'left', 'right'}
+%
+%
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+%
+%                       DESCRIPTION
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% 
+% Calculates movement of each wheel separatelly according
+% to the vehicle geometry and different parameters.
+% 
+%
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+%
+%                         HISTORY
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% Version: 1.7
+% Author/Date: Milan Tepic / 2017-02-07
+% Change: Initial version
+%
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
 function [output,state_Num] = wheel_move(wheel_speeds,vehicle_Params,sym_Params,tire_Params,wheel_location,slipAngle,lateralLoad,laststate)
     
     % INIT

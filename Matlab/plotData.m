@@ -1,3 +1,40 @@
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+%                      Copyright (c)                                   *
+%            All rights reserved by Milan Tepic
+%  
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+% Function: plotData
+% Input parameters:
+% Return parameters:
+%
+%
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+%
+%                       DESCRIPTION
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% 
+% it plots all simulation parameters. The last input argument
+% must be: {'DLC', 'etc'}. *DLC* is for Double-Lane-Change
+% test, whilst *etc* is for everything else for now (free test)
+% 
+%
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+%
+%                         HISTORY
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% Version: 1.7
+% Author/Date: Milan Tepic / 2017-02-07
+% Change: Initial version
+%
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
 function done = plotData(data,vehicle_Params,tire_Params,test)
 	if(length(test)==3)
 		if(test=='DLC')
