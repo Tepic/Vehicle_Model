@@ -1,4 +1,4 @@
-# Vehicle Model
+# **Final Bachelor Thesis**
 # A model of sport vehicle handling with 4 wheel electric drivetrain
 
 Vehicle Model is based on the vehicle of Road Arrow Formula Student Team from University of Belgrade, Serbia
