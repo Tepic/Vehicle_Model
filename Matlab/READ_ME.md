@@ -1,6 +1,6 @@
 # TESTS
 
-**v07** - its is the **main** where everything originates 
+**v07** - its is the **main** where everything originates (estimated time execution ~1min @ [i3-2xxx, 8GB RAM])
 
 **DoubleLaneChange** - it is designed to simulate control for the standard ISO3888 Double Lane Change ( **DLC** ) test. Downside of this simulation test is that the speed is maintained during the simulated test. It is needed to implement friction model in order to give additional action-reaction to have an influence on the vehicle speed and handling.
 
