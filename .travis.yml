@@ -1,2 +1,4 @@
 os: windows
 language: matlab
+matlab:
+ - "stable"
