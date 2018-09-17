@@ -164,4 +164,4 @@ after_success:
 
 ###############################################################################
 # Enable archiving of artifacts on Shippable (does nothing on Travis)
-archive: tru
+archive: true
